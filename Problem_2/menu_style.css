@@ -1,0 +1,46 @@
+/* styles.css */
+
+header {
+    background-color: #FF5733;
+    color: white;
+    font-family: 'Arial Black', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #FF5733;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+li::before {
+    content: "$";
+    float: right;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #FF5733;
+    color: white;
+}
